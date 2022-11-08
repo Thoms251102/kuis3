@@ -1,3 +1,8 @@
+<style>
+    body{
+        background-image: url('https://th.bing.com/th/id/R.554789bd0abef2d279ead020240cf119?rik=HsMMuOEEMsuiCg&riu=http%3a%2f%2fpradaandpearls.com%2fwp-content%2fuploads%2f2020%2f10%2fcloud-feature.png&ehk=1VUuxy%2btDRfqAftTQU7V1pS9jwWlZZNL4OzqEfkUY4o%3d&risl=&pid=ImgRaw&r=0')
+    }
+</style>
 <?php 
 function rupiah($angka){
 	$hasil_rupiah = number_format($angka,0,',','.');
@@ -5,7 +10,7 @@ function rupiah($angka){
 }
 
 ?>
-<section class="py-5" style="background-image: ;">
+<section class="py-5">
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-12">
